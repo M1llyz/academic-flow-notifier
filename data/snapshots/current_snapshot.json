@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "card_001",
+    "title": "Banco de Dados | Exercício de Triggers (versão atualizada)",
+    "discipline": "Banco de Dados",
+    "category": "ATIVIDADES PRÁTICAS",
+    "description": "Resolver os exercícios 1 a 5 sobre Triggers e entregar pelo Moodle.",
+    "due_date": "2026-08-20",
+    "source_url": "https://trello.com/c/card_001"
+  },
+  {
+    "source_id": "card_002",
+    "title": "Modelagem de Negócios | Prova P1",
+    "discipline": "Modelagem de Negócios e Requisitos",
+    "category": "PROVAS",
+    "description": "Avaliação referente ao conteúdo das primeiras aulas.",
+    "due_date": "2026-08-25",
+    "source_url": "https://trello.com/c/card_002"
+  },
+  {
+    "source_id": "card_003",
+    "title": "PCE | Refinamento da Especificação",
+    "discipline": "Projeto Curricular Extensionista",
+    "category": "PCE",
+    "description": "Entregar a primeira versão refinada da especificação do projeto.",
+    "due_date": "2026-08-30",
+    "source_url": "https://trello.com/c/card_003"
+  },
+  {
+    "source_id": "card_004",
+    "title": "PCG | Apresentação Parcial",
+    "discipline": "Projeto Curricular de Graduação",
+    "category": "PCG",
+    "description": "Apresentação parcial do andamento do projeto.",
+    "due_date": "2026-09-05",
+    "source_url": "https://trello.com/c/card_004"
+  },
+  {
+    "source_id": "card_005",
+    "title": "Engenharia de Software | Questionário Moodle",
+    "discipline": "Engenharia de Software",
+    "category": "ATIVIDADES GERAIS",
+    "description": "Responder o questionário disponibilizado pelo professor.",
+    "due_date": "2026-09-10",
+    "source_url": "https://trello.com/c/card_005"
+  }
+]
