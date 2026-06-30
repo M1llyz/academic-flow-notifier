@@ -7,9 +7,6 @@ Olá!
 
 Este é um lembrete de que a atividade abaixo está próxima do prazo de entrega.
 
-📚 Disciplina:
-{discipline}
-
 📝 Atividade:
 {title}
 
@@ -31,9 +28,6 @@ Olá!
 
 A atividade abaixo vence amanhã.
 
-📚 Disciplina:
-{discipline}
-
 📝 Atividade:
 {title}
 
@@ -52,9 +46,6 @@ NEW_CARD_BODY = """
 Olá!
 
 Uma nova atividade foi adicionada ao cronograma acadêmico.
-
-📚 Disciplina:
-{discipline}
 
 📝 Atividade:
 {title}
@@ -75,9 +66,6 @@ Olá!
 
 O prazo de uma atividade foi atualizado no cronograma acadêmico.
 
-📚 Disciplina:
-{discipline}
-
 📝 Atividade:
 {title}
 
@@ -96,9 +84,6 @@ TITLE_CHANGED_BODY = """
 Olá!
 
 Uma atividade teve o título atualizado no cronograma acadêmico.
-
-📚 Disciplina:
-{discipline}
 
 📝 Atividade atualizada:
 {title}

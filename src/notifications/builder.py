@@ -1,3 +1,4 @@
+from datetime import datetime
 from uuid import uuid4
 
 from src.models.academic_event import AcademicEvent
@@ -39,6 +40,15 @@ TEMPLATES = {
     ),
 }
 
+def format_date_br(date_value: str) -> str:
+    """
+    Converte uma data no formato YYYY-MM-DD para DD/MM/YYYY.
+    """
+
+    if not date_value:
+        return "Não informado"
+
+    return datetime.strptime(date_value, "%Y-%m-%d").strftime("%d/%m/%Y")
 
 def build_notification(event: AcademicEvent) -> Notification:
     """
@@ -50,14 +60,15 @@ def build_notification(event: AcademicEvent) -> Notification:
 
     subject_template, body_template = TEMPLATES[event.event_type]
 
+    formatted_due_date = format_date_br(event.due_date)
+
     subject = subject_template.format(
         days_left=event.days_left,
     )
 
     body = body_template.format(
-        discipline=event.discipline,
         title=event.title,
-        due_date=event.due_date,
+        due_date=formatted_due_date,
         source_url=event.source_url,
         days_left=event.days_left,
     )
