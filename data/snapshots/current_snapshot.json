@@ -1,47 +1,146 @@
 [
   {
-    "source_id": "card_001",
-    "title": "Banco de Dados | Exercício de Triggers (versão atualizada)",
-    "discipline": "Banco de Dados",
-    "category": "ATIVIDADES PRÁTICAS",
-    "description": "Resolver os exercícios 1 a 5 sobre Triggers e entregar pelo Moodle.",
-    "due_date": "2026-08-20",
-    "source_url": "https://trello.com/c/card_001"
+    "source_id": "69029b27d44566cf848bd49e",
+    "title": "AP1 SQL x NoSQL | Banco de Dados",
+    "discipline": "",
+    "category": "",
+    "description": "Atividade prática 1 - Banco de Dados Relacional (SQL x NoSQL)\n\nEntrega no moodle de 11/02 a 04/03\n\n[Banco de Dados - Aula 1B (AP1).pptx](https://trello.com/1/cards/69029b27d44566cf848bd49e/attachments/69d15ed3a56b90f4035c0d54/download/Banco_de_Dados_-_Aula_1B_(AP1).pptx \"‌\")",
+    "due_date": "2026-03-04",
+    "source_url": "https://trello.com/c/hixdk59F/2-ap1-sql-x-nosql-banco-de-dados"
   },
   {
-    "source_id": "card_002",
-    "title": "Modelagem de Negócios | Prova P1",
-    "discipline": "Modelagem de Negócios e Requisitos",
-    "category": "PROVAS",
-    "description": "Avaliação referente ao conteúdo das primeiras aulas.",
-    "due_date": "2026-08-25",
-    "source_url": "https://trello.com/c/card_002"
+    "source_id": "6a42ba4b73c1b87139462a4f",
+    "title": "Teste integração",
+    "discipline": "",
+    "category": "",
+    "description": "",
+    "due_date": "2026-07-01",
+    "source_url": "https://trello.com/c/uTmHQY7z/39-teste-integra%C3%A7%C3%A3o"
   },
   {
-    "source_id": "card_003",
-    "title": "PCE | Refinamento da Especificação",
-    "discipline": "Projeto Curricular Extensionista",
-    "category": "PCE",
-    "description": "Entregar a primeira versão refinada da especificação do projeto.",
-    "due_date": "2026-08-30",
-    "source_url": "https://trello.com/c/card_003"
+    "source_id": "69029c8a77415224869a21bd",
+    "title": "07/04 | Redes (Prova 1)",
+    "discipline": "",
+    "category": "",
+    "description": "",
+    "due_date": "",
+    "source_url": "https://trello.com/c/5DooOSWK/14-07-04-redes-prova-1"
   },
   {
-    "source_id": "card_004",
-    "title": "PCG | Apresentação Parcial",
-    "discipline": "Projeto Curricular de Graduação",
-    "category": "PCG",
-    "description": "Apresentação parcial do andamento do projeto.",
-    "due_date": "2026-09-05",
-    "source_url": "https://trello.com/c/card_004"
+    "source_id": "69d150ce18b6391aa510d539",
+    "title": "08/04 | Banco de Dados (Prova1)",
+    "discipline": "",
+    "category": "",
+    "description": "",
+    "due_date": "",
+    "source_url": "https://trello.com/c/zIE990ej/29-08-04-banco-de-dados-prova1"
   },
   {
-    "source_id": "card_005",
-    "title": "Engenharia de Software | Questionário Moodle",
-    "discipline": "Engenharia de Software",
-    "category": "ATIVIDADES GERAIS",
-    "description": "Responder o questionário disponibilizado pelo professor.",
-    "due_date": "2026-09-10",
-    "source_url": "https://trello.com/c/card_005"
+    "source_id": "69d15256ae89e003b9c6d24c",
+    "title": "05/05 | Redes (Prova2)",
+    "discipline": "",
+    "category": "",
+    "description": "",
+    "due_date": "",
+    "source_url": "https://trello.com/c/sX2Xn4Ok/33-05-05-redes-prova2"
+  },
+  {
+    "source_id": "69d151d90a91db6fb4956330",
+    "title": "28/05 | Engenharia de Software (Prova1)",
+    "discipline": "",
+    "category": "",
+    "description": "",
+    "due_date": "",
+    "source_url": "https://trello.com/c/IUQNSxBG/31-28-05-engenharia-de-software-prova1"
+  },
+  {
+    "source_id": "69d151929f76e558dc383812",
+    "title": "10/06 | Banco de Dados (Prova2)",
+    "discipline": "",
+    "category": "",
+    "description": "",
+    "due_date": "",
+    "source_url": "https://trello.com/c/czjyGsdk/30-10-06-banco-de-dados-prova2"
+  },
+  {
+    "source_id": "69d15237fcd58ddb7dcdbdbd",
+    "title": "15/06 | Modelagem de Negócios (Prova1)",
+    "discipline": "",
+    "category": "",
+    "description": "",
+    "due_date": "",
+    "source_url": "https://trello.com/c/fo0nzp2v/32-15-06-modelagem-de-neg%C3%B3cios-prova1"
+  },
+  {
+    "source_id": "69029c3ae092e386863956eb",
+    "title": "PCG1 - Plano de Projeto (09/04 a 13/04)",
+    "discipline": "",
+    "category": "",
+    "description": "Entregável 1: A primeira entrega do PCG é basicamente um levantamento de requisitos do PCE\n\nSe dividindo em contextualização (apresentação do processo a ser estudado e seus pontos críticos para melhoria); Objetivos (geral e específicos) e Abordagem Metodológica\n\nO prazo para a entrega 1 do PCG nos serviços acadêmicos é: 09/04/2026 a 13/04/2026",
+    "due_date": "2026-04-13",
+    "source_url": "https://trello.com/c/V1qSjgft/11-pcg1-plano-de-projeto-09-04-a-13-04"
+  },
+  {
+    "source_id": "69d15d9044814f49fc3280e8",
+    "title": "PCG2 - Modelagem do processo (21/05 a 25/05)",
+    "discipline": "",
+    "category": "",
+    "description": "Entregável 2: Revisão bibliográfica sobre a técnica de modelagem escolhida; modelagem AS IS; modelagem TO BE\n\nO prazo para a entrega 1 do PCG nos serviços acadêmicos é: 21/05/2026 a 25/05/2026",
+    "due_date": "2026-05-25",
+    "source_url": "https://trello.com/c/Gpj4lR2u/35-pcg2-modelagem-do-processo-21-05-a-25-05"
+  },
+  {
+    "source_id": "69d15fbd16d1302c19cd4bab",
+    "title": "PCE1 - Especificação de Requisitos (30/04 a 09/05)",
+    "discipline": "",
+    "category": "",
+    "description": "**Entregável 1 PCE: Especificação dos requisitos**\n\nApresentar uma especificação completa para projeto e desenvolvimento de solução computacional, seja novo ou continuidade com acréscimo de funcionalidades contendo: Visão geral do projeto, detalhamento dos requisitos funcionais e não-funcionais, diagramas e fluxos para entendimento do que será construído.\n\nO prazo para entrega nos serviços acadêmicos é: 30/04/2026 a 09/05/2026",
+    "due_date": "2026-05-09",
+    "source_url": "https://trello.com/c/1czkfcWK/36-pce1-especifica%C3%A7%C3%A3o-de-requisitos-30-04-a-09-05"
+  },
+  {
+    "source_id": "69d160d53fc47c05b70447ff",
+    "title": "PCE2 - Refinamento da Especificação + Arquitetura (10/05 a 05/06)",
+    "discipline": "",
+    "category": "",
+    "description": "**Entregável 2: Refinamento da Especificação + Arquitetura e Projeto (definição das Tecnologias)**\n\nApresentar a entrega anterior revisada e adicionar a solução tecnológica concebida para atender às especificações levantadas, inclui especificação da infraestrutura de Hosting da solução, linguagem de programação, banco de dados, frameworks, repositório de código.\n\nO prazo para entrega nos serviços acadêmicos é: 10/05/2026 a 05/06/2026",
+    "due_date": "2026-06-05",
+    "source_url": "https://trello.com/c/c24GsERe/37-pce2-refinamento-da-especifica%C3%A7%C3%A3o-arquitetura-10-05-a-05-06"
+  },
+  {
+    "source_id": "69029bd9db65688f4563dc39",
+    "title": "Redes | ATV1 (31/03 a 22/05)",
+    "discipline": "",
+    "category": "",
+    "description": "Atividade prática 1 (DDoS): Estratégias de mitigação e análise de impacto em ambientes corporativos submetidos a ataques por negação de serviço do tipo DDoS.\n\nO prazo para entrega da atv nos serviços acadêmicos é: 31/03/2026 a 22/05/2026\n\n[ATV1 Redes - Ataques por negação de serviço (DDoS).pdf](https://trello.com/1/cards/69029bd9db65688f4563dc39/attachments/69d155758e71c9c91ffc5b66/download/ATV1_Redes_-_Ataques_por_nega%C3%A7%C3%A3o_de_servi%C3%A7o_(DDoS).pdf \"‌\")",
+    "due_date": "2026-05-22",
+    "source_url": "https://trello.com/c/YXZr69eW/7-redes-atv1-31-03-a-22-05"
+  },
+  {
+    "source_id": "69029b6084df0a6d99bc6621",
+    "title": "Banco de Dados | ATV1 (13/05 a 03/06)",
+    "discipline": "",
+    "category": "",
+    "description": "Ao longo do semestre desenvolver 5 atividades práticas conforme protocolo. É obrigatório, para validação, o cumprimento mínimo de 4 das 5 atividades propostas.\n\nO prazo para a entrega das atividades feitas ao longo do semestre nos Serviços Acadêmicos é de 13/05/2026 a 03/06/2026\n\n[ATV1 BD - protocolo geral.pdf](https://trello.com/1/cards/69029b6084df0a6d99bc6621/attachments/69d153f2bb0bff7ff3d77b2c/download/ATV1_BD_-_protocolo_geral.pdf \"‌\")",
+    "due_date": "2026-06-03",
+    "source_url": "https://trello.com/c/CTOsT28n/4-banco-de-dados-atv1-13-05-a-03-06"
+  },
+  {
+    "source_id": "69d1561977b37f1c70c4d474",
+    "title": "Redes | ATV2 (24/05 a 07/06)",
+    "discipline": "",
+    "category": "",
+    "description": "Atividade prática 2 (LGPD): Investigar e desenvolver estratégias eficazes para a implementação da Lei Geral de Proteção de Dados (LGPD) no ambiente corporativo, visando garantir a privacidade e segurança dos dados pessoais dos clientes e colaboradores.\n\nO prazo para entrega da atv nos serviços acadêmicos é: 24/05/2026 a 07/06/2026\n\n[ATV2 Redes (LGPD).pdf](https://trello.com/1/cards/69d1561977b37f1c70c4d474/attachments/69d156abe1a0b4be17fafa74/download/ATV2_Redes_(LGPD).pdf \"‌\")",
+    "due_date": "2026-06-07",
+    "source_url": "https://trello.com/c/viIPYhNJ/34-redes-atv2-24-05-a-07-06"
+  },
+  {
+    "source_id": "6923a6f6126684328c1225d5",
+    "title": "Engenharia de Software | ATV1 (25/05 a 12/06)",
+    "discipline": "",
+    "category": "",
+    "description": "Para cada atividade proposta e especificada com a sigla AP (enviadas ao longo do semestre no Moodle), compilar e entregar como atividade prática até o prazo estipulado\n\nO prazo para entrega do compilado nos serviços acadêmicos é de 25/05/2026 a 12/06/2026",
+    "due_date": "2026-06-12",
+    "source_url": "https://trello.com/c/iDLDvFb3/26-engenharia-de-software-atv1-25-05-a-12-06"
   }
 ]

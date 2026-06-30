@@ -12,11 +12,15 @@ from src.models.card import Card
 def detect_deadline_events(cards: list[Card]) -> list[AcademicEvent]:
     """
     Detecta eventos baseados na proximidade do prazo.
+    Cards sem data de vencimento são ignorados.
     """
 
     events: list[AcademicEvent] = []
 
     for card in cards:
+        if not card.due_date:
+            continue
+
         days_left = calculate_days_left(card.due_date)
 
         if days_left == 3:
@@ -56,7 +60,7 @@ def detect_new_card_events(
     )
 
     for card in new_cards:
-        days_left = calculate_days_left(card.due_date)
+        days_left = calculate_days_left(card.due_date) if card.due_date else -1
 
         events.append(
             build_event(
@@ -85,7 +89,11 @@ def detect_due_date_changed_events(
     )
 
     for previous_card, current_card in due_date_changes:
-        days_left = calculate_days_left(current_card.due_date)
+        days_left = (
+            calculate_days_left(current_card.due_date)
+            if current_card.due_date
+            else -1
+        )
 
         events.append(
             build_event(
@@ -114,7 +122,7 @@ def detect_title_changed_events(
     )
 
     for previous_card, current_card in title_changes:
-        days_left = calculate_days_left(current_card.due_date)
+        days_left = calculate_days_left(current_card.due_date) if current_card.due_date else -1
 
         events.append(
             build_event(
