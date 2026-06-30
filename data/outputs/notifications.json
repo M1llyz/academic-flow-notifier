@@ -1,0 +1,14 @@
+{
+    "generated_at": "2026-06-30T15:12:47.853939-03:00",
+    "notifications_count": 1,
+    "notifications": [
+        {
+            "notification_id": "6d1ef1cc-86c3-4798-9be1-ec36c23028bb",
+            "event_id": "a8fa3b70-eee3-4987-9c39-0d9bcb4bbf2d",
+            "channel": "email",
+            "subject": "🚨 Atenção: a atividade vence amanhã",
+            "body": "\nOlá!\n\nA atividade abaixo vence amanhã.\n\n📝 Atividade:\nTeste integração\n\n📅 Prazo:\n01/07/2026\n\n🔗 Acesse o cronograma:\nhttps://trello.com/c/uTmHQY7z/39-teste-integra%C3%A7%C3%A3o\n\nNão deixe para a última hora!\n",
+            "status": "PENDING"
+        }
+    ]
+}

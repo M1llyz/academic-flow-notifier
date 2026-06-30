@@ -15,7 +15,6 @@ def card_to_dict(card: Card) -> dict:
     return {
         "source_id": card.source_id,
         "title": card.title,
-        "discipline": card.discipline,
         "category": card.category,
         "description": card.description,
         "due_date": card.due_date,
@@ -31,11 +30,10 @@ def dict_to_card(data: dict) -> Card:
     return Card(
         source_id=data["source_id"],
         title=data["title"],
-        discipline=data["discipline"],
-        category=data["category"],
-        description=data["description"],
-        due_date=data["due_date"],
-        source_url=data["source_url"],
+        category=data.get("category", ""),
+        description=data.get("description", ""),
+        due_date=data.get("due_date", ""),
+        source_url=data.get("source_url", ""),
     )
 
 
