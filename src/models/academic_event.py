@@ -8,7 +8,6 @@ class AcademicEvent:
     source_id: str
     source_url: str
     title: str
-    discipline: str
     category: str
     description: str
     due_date: str

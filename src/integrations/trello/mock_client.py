@@ -18,7 +18,6 @@ def get_cards(file_path: str = MOCK_CARDS_FILE) -> list[Card]:
         Card(
             source_id=item["source_id"],
             title=item["title"],
-            discipline=item["discipline"],
             category=item["category"],
             description=item["description"],
             due_date=item["due_date"],
