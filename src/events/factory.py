@@ -18,7 +18,6 @@ def build_event(card: Card, event_type: str, days_left: int) -> AcademicEvent:
         source_id=card.source_id,
         source_url=card.source_url,
         title=card.title,
-        discipline=card.discipline,
         category=card.category,
         description=card.description,
         due_date=card.due_date,
