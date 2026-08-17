@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 680px;
+  margin: 24px auto;
+  padding: 28px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.message {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.message h1 {
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+
+.message p {
+  margin: 0 0 16px;
+}
+
+.activity-card {
+  margin: 20px 0;
+  padding: 18px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.field {
+  margin-bottom: 14px;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 4px;
+}
+
+.value {
+  font-size: 15px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 14px;
+  background-color: #1f2937;
+  color: #ffffff !important;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.button-description {
+    margin: 18px 0 10px;
+    font-size: 14px;
+    color: #383f49;
+    line-height: 1.5;
+}
+
+.footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.auto-message {
+  font-size: 12px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.signature {
+  margin-top: 18px;
+  font-size: 13px;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.signature-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.signature-links a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.email-header {
+    border-bottom: 2px solid #0F766E;
+    padding-bottom: 18px;
+    margin-bottom: 28px;
+}
+
+.email-header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #0F172A;
+}
+
+.header-subtitle {
+    margin-top: 6px;
+    font-size: 15px;
+    color: #64748B;
+}

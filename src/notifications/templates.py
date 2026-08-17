@@ -13,7 +13,7 @@ Este é um lembrete de que a atividade abaixo está próxima do prazo de entrega
 📅 Prazo:
 {due_date}
 
-🔗 Acesse o cronograma:
+🔗 Acesse o cronograma completo para mais detalhes:
 {source_url}
 
 Bom estudo!
@@ -34,7 +34,7 @@ A atividade abaixo vence amanhã.
 📅 Prazo:
 {due_date}
 
-🔗 Acesse o cronograma:
+🔗 Acesse o cronograma completo para mais detalhes:
 {source_url}
 
 Não deixe para a última hora!
@@ -53,7 +53,7 @@ Uma nova atividade foi adicionada ao cronograma acadêmico.
 📅 Prazo:
 {due_date}
 
-🔗 Acesse o cronograma:
+🔗 Acesse o cronograma completo para mais detalhes:
 {source_url}
 
 Fique atento(a) às próximas atualizações!
@@ -72,7 +72,7 @@ O prazo de uma atividade foi atualizado no cronograma acadêmico.
 📅 Novo prazo:
 {due_date}
 
-🔗 Acesse o cronograma:
+🔗 Acesse o cronograma completo para mais detalhes:
 {source_url}
 
 Confira a alteração para se organizar direitinho.
@@ -91,7 +91,7 @@ Uma atividade teve o título atualizado no cronograma acadêmico.
 📅 Prazo:
 {due_date}
 
-🔗 Acesse o cronograma:
+🔗 Acesse o cronograma completo para mais detalhes:
 {source_url}
 
 Confira a atualização para evitar confusão.

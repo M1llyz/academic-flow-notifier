@@ -13,10 +13,7 @@ def detect_snapshot_events(
     previous_cards: list[Card],
     current_cards: list[Card],
 ) -> list[AcademicEvent]:
-    """
-    Detecta eventos baseados na comparação entre snapshot anterior
-    e estado atual dos cards.
-    """
+    # Detecta eventos baseados na comparação entre snapshot anterior e estado atual dos cards.
 
     events: list[AcademicEvent] = []
 
@@ -49,20 +46,39 @@ def detect_events(
     previous_cards: list[Card] | None = None,
 ) -> list[AcademicEvent]:
     """
-    Detecta todos os eventos acadêmicos suportados pela aplicação.
+    Detecta todos os eventos acadêmicos suportados.
+
+    Regra:
+    - Cards novos geram apenas NEW_CARD na primeira execução.
+    - Lembretes de prazo são gerados apenas para cards já conhecidos.
     """
 
     events: list[AcademicEvent] = []
 
-    events.extend(detect_deadline_events(current_cards))
+    if previous_cards is None:
+        events.extend(detect_deadline_events(current_cards))
+        return events
+    
+    snapshot_events = detect_snapshot_events(
+        previous_cards=previous_cards,
+        current_cards=current_cards,
+    )
 
-    if previous_cards is not None:
-        events.extend(
-            detect_snapshot_events(
-                previous_cards=previous_cards,
-                current_cards=current_cards,
-            )
-        )
+    events.extend(snapshot_events)
+
+    new_card_source_ids = {
+        event.source_id
+        for event in snapshot_events
+        if event.event_type == "NEW_CARD"
+    }
+
+    cards_for_deadline = [
+        card
+        for card in current_cards
+        if card.source_id not in new_card_source_ids
+    ]
+
+    events.extend(detect_deadline_events(cards_for_deadline))
 
     return events
 

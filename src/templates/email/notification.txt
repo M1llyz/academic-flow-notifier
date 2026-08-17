@@ -1,0 +1,8 @@
+NOTIFICAÇÕES ACADÊMICAS
+Sistemas de Informação - UNISANTOS
+
+{{ body }}
+
+----------------------------------------
+
+{{ signature }}

@@ -140,7 +140,6 @@ A ideia é evitar que o restante do sistema dependa diretamente do formato bruto
   "source_id": "card_123",
   "source_url": "https://trello.com/c/example",
   "title": "Banco de Dados | ATV1",
-  "discipline": "Banco de Dados",
   "category": "ATIVIDADES PRÁTICAS",
   "description": "Resolver exercícios 1 a 5.",
   "due_date": "2026-08-20",
@@ -163,7 +162,6 @@ A ideia é evitar que o restante do sistema dependa diretamente do formato bruto
 | `source_id`         | Identificador do item na origem, como o ID do card no Trello. |
 | `source_url`        | Link para o item original.                                    |
 | `title`             | Título principal do evento.                                   |
-| `discipline`        | Disciplina relacionada ao evento.                             |
 | `category`          | Categoria acadêmica, geralmente baseada na lista do Trello.   |
 | `description`       | Descrição ou instruções principais.                           |
 | `due_date`          | Data de vencimento ou entrega.                                |
@@ -217,7 +215,6 @@ A ideia é evitar que o restante do sistema dependa diretamente do formato bruto
   "source_id": "card_456",
   "source_url": "https://trello.com/c/example",
   "title": "Engenharia de Software | Questionário de Requisitos",
-  "discipline": "Engenharia de Software",
   "category": "ATIVIDADES GERAIS",
   "description": "Responder o questionário disponibilizado no Moodle.",
   "due_date": "2026-08-25",
@@ -240,7 +237,6 @@ A ideia é evitar que o restante do sistema dependa diretamente do formato bruto
   "source_id": "card_789",
   "source_url": "https://trello.com/c/example",
   "title": "PCE | Entrega da Especificação",
-  "discipline": "Projeto Curricular Extensionista",
   "category": "PCE",
   "description": "Entrega da especificação inicial do projeto.",
   "due_date": "2026-09-01",

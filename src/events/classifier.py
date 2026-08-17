@@ -1,4 +1,9 @@
 from datetime import date, datetime
+from zoneinfo import ZoneInfo
+
+
+LOCAL_TIMEZONE = ZoneInfo("America/Sao_Paulo")
+
 
 def calculate_days_left(due_date: str, reference_date: date | None = None) -> int:
     """
@@ -9,11 +14,12 @@ def calculate_days_left(due_date: str, reference_date: date | None = None) -> in
     """
 
     if reference_date is None:
-        reference_date = date.today()
+        reference_date = datetime.now(LOCAL_TIMEZONE).date()
 
     due = datetime.strptime(due_date, "%Y-%m-%d").date()
 
     return (due - reference_date).days
+
 
 if __name__ == "__main__":
     days = calculate_days_left("2026-08-20")
